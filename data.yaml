@@ -1,0 +1,6 @@
+train: data/train
+val: data/test
+nc: 7
+names: [’CappedHoneyCell’, ’CappedWorkerBroodCell’,
+    ’EmptyCombCell’, ’PollenCell’, ’UncappedNectarCell’,
+    ’UncappedWorkerLarvaCell’, ’BeeHiveFrame’]
