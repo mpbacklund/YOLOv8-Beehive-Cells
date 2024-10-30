@@ -1,5 +1,5 @@
-train: data/train
-val: data/test
+train: C:\Users\mpbac\Documents\CS5600\Project_1\cs5600_6600_f24_project_1\datasets\train
+val: C:\Users\mpbac\Documents\CS5600\Project_1\cs5600_6600_f24_project_1\datasets\test
 nc: 7
 names: [’CappedHoneyCell’, ’CappedWorkerBroodCell’,
     ’EmptyCombCell’, ’PollenCell’, ’UncappedNectarCell’,
