@@ -2,10 +2,11 @@ from ultralytics import YOLO
 from itertools import product
 
 def main():
-    model = YOLO("best.pt")
+    model = YOLO("yolov8s.pt")
     train_results = model.train(data='data.yaml',
         epochs=500,
         imgsz=640,
+        #weight_decay=0.0005,
         device=0)
 
     # evaluate performace on the validation set
@@ -85,4 +86,4 @@ def hyperparameter_tuning():
     final_model.export(format="onnx")
 
 if __name__ == "__main__":
-    hyperparameter_tuning()
+    main()
